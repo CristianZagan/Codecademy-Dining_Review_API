@@ -2,8 +2,10 @@ package com.portfolio.codecademy.model;
 
 import com.portfolio.codecademy.enums.ReviewStatus;
 import jakarta.persistence.*;
+import jdk.jshell.Snippet;
 import lombok.*;
 
+@Builder
 @Entity
 @Data
 @NoArgsConstructor

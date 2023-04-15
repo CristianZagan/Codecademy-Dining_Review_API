@@ -20,4 +20,5 @@ public interface DiningReviewRepository extends JpaRepository<DiningReview, Long
 
     List<DiningReview> findAllByRestaurant_IdAndStatusAndDairyScore(Long restaurantId, ReviewStatus status, Integer dairyScore);
 
+    List<DiningReview> findByRestaurantId(Long restaurantId);
 }
